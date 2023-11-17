@@ -46,7 +46,6 @@ class UIDController extends Controller
         uid::create([
             'uid' => $data['uid'],
             'nisn'=> $data['nisn'],
-
         ]);
 
         return redirect('/');

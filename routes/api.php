@@ -25,3 +25,4 @@ Route::post('/cekLogin', [UserController::class, 'login']);
 Route::get('/', [homeController::class, 'index']);
 
 Route::get('/uid', [UIDController::class, 'uidlist']);
+Route::post('/uidregist', [UIDController::class, 'create']);
