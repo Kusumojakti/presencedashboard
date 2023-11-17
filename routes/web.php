@@ -49,6 +49,11 @@ Route::middleware('logincheck')->group(function(){
     Route::get('/uid', [UIDController::class, 'index']);
     Route::get('/registeruid', [UIDController::class, 'showregister']);
     Route::post('/createuid', [UIDController::class, 'create']);
+
+    Route::get('/status', function () {
+    return view('status');
+    });
+    
 });
 
 Route::get('/login', [UserController::class, 'loginPage']);
