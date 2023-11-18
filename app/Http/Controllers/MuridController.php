@@ -22,6 +22,12 @@ class MuridController extends Controller
         
     }
 
+    public function selectnisn()
+    {
+        $selectnis = murid::all();
+        return view('registeruid', compact('selectnis'));
+    }
+
     public function regist()
     {
         return view('registermurid');

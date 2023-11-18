@@ -218,8 +218,9 @@
                 >
                   <div class="col-12 col-lg-9 col-xl-7">
                     <div
-                      class="card shadow card-registration"
+                      class="card shadow"
                       style="border-radius: 15px"
+                      id="registmurid"
                     >
                       <div class="card-body p-4 p-md-5">
                         <form action="/registerMurid" method="POST">
@@ -242,7 +243,7 @@
                             </div>
                           @endif
                           
-                          <div class="row">
+                          <div class="row" id="formstyle">
                             <div class="col-md-6 mb-4">
                               <div class="form-outline">
                                 <input

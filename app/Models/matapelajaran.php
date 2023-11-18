@@ -5,11 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class absensi extends Model
+class matapelajaran extends Model
 {
     use HasFactory;
-
-    protected $fillable = [
-        'uid', 'waktu_masuk', 'waktu_keluar',
-    ];
 }

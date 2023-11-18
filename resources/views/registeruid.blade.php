@@ -236,7 +236,7 @@
           <h2 class="main-title mt-3 mb-5">Register UID Tag</h2>
           <div class="row align-items-center justify-content-center vh-50">
             <div class="col-lg-9">
-              <div class="shadow rounded">
+              <div class="shadow rounded" id="regist">
                 <div class="row align-items-center">
                   <div class="col-lg-5" id="bg-register">
                     <img
@@ -265,6 +265,7 @@
                           {{ session('success') }}
                         </div>
                         @endif
+
                         <div class="mb-3 mt-4">
                           <label for="inputName" class="form-label">NISN</label>
                           <input
@@ -274,6 +275,7 @@
                             aria-describedby="emailHelp"
                           />
                         </div>
+                        
                         <div class="mb-3">
                           <label for="inputPassword1" class="form-label"
                             >UID</label
